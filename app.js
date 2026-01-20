@@ -1,10 +1,17 @@
-// console.log(process.argv);
-// const num1 = Number(process.argv[2]);
-// const op = process.argv[3];
-// const num2 = Number(process.argv[4]);
-// if (!isNaN(num1) && !isNaN(num2)) {
-//     let calc = calculator(num1, op, num2);
-//     console.log(calc);
-// } else {
-//     console.log("not a number");
-// }
+const contactService = require('./services/contactService');
+
+console.log(process.argv);
+
+const command = process.argv[2];
+console.log(command);
+const arg1 = process.argv[3];
+const arg2 = process.argv[4];
+const arg3 = process.argv[5];
+switch (command) {
+    case 'add': contactService.addContact(arg1, arg2, arg3);
+        break;
+    case 'list': contactService.listContacts();
+        break;
+    case 'delete': contactService.deleteContacts(arg1);
+        break;
+}
