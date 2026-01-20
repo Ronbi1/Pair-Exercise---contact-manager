@@ -1,1 +1,22 @@
-[{"name":"John","email":"ron@gmail.com","phone":"052669"},{"name":"John","email":"rbvdsn@gmail.com","phone":"045345645669"},{"name":"John","email":"r324523sn@gmail.com","phone":"04534569"},{"name":"lioilin","email":"r324523sn@yssfdgail.com","phone":"04534435329"}]
+[
+    {
+        "name": "John",
+        "email": "ron@gmail.com",
+        "phone": "052669"
+    },
+    {
+        "name": "John",
+        "email": "rbvdsn@gmail.com",
+        "phone": "045345645669"
+    },
+    {
+        "name": "John",
+        "email": "r324523sn@gmail.com",
+        "phone": "04534569"
+    },
+    {
+        "name": "lioilin",
+        "email": "r324523sn@yssfdgail.com",
+        "phone": "04534435329"
+    }
+]
